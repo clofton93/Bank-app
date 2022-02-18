@@ -1,0 +1,5 @@
+Bank = caleb.BankAccount(0.4,0)
+caleb_deposit = caleb.Deposit(50)
+caleb_deposit2 = caleb.Deposit(25)
+caleb_deposit3 = caleb.Deposit(30)
+caleb_yield = (caleb.yield_interest() caleb.display_account_info)
