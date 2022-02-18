@@ -18,14 +18,13 @@ class BankAccount():
             print("Insufficient Funds Charging a $5 fee:", self.balance)
             
     def display_account_info(self):
-        print(self.int_rate)
-        print(self.balance)
+        print("Account Information:", self.int_rate, self.balance)
         return self
         
     def yield_interest(self):
         if self.balance > 0:
             self.balance = (self.balance * self.int_rate) + self.balance
-        print(self.balance)
+        print("Account Balance Updated:", self.balance)
         return self
         
 account1  = BankAccount(0.4,35)
