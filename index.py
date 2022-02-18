@@ -27,9 +27,9 @@ class BankAccount():
         print("Account Balance Updated:", self.balance)
         return self
         
-account1  = BankAccount(0.4,35)
-account2 = BankAccount(0.5,25)
-account3 = BankAccount(0.4,100)
+account1  = BankAccount(0.04,35)
+account2 = BankAccount(0.05,25)
+account3 = BankAccount(0.04,100)
 
 account1.deposit(20)
 account1.deposit(50)
